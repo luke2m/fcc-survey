@@ -5,23 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<h1 id="title">Contact Me</h1>
+<h1 id="title">Contact Me</h1>
 <p id="description">This form is for a freeCodeCamp challenge, it is not a real contact form. </p>
 <form id="survey-form">
 <label id="name-label" for="name">Name:</label><hr>
 <input placeholder="Jane Doe" type="text" id="name">
-	<br>
-	<label id="email-label" for="email">Email address:</label><hr>
-	<input placeholder="john@doe.com" type="email" id="email">
-	<br>
-	<label id="number-label" for="lang">How many computer languages do you know:</label><hr>
-	<input placeholder="5" type="number" id="lang" min="0" max="2000">
-	<br>
-	<label id="drop-label" for="dropdown">Gender:</label><hr>
-	<select id="dropdown">
-		<option>Male</option>
-		<option>Female</option>
-		<option>Other</option>
-		<option>Prefer not to say</option>
-	</select>
+<br>
+<label id="email-label" for="email">Email address:</label><hr>
+<input placeholder="john@doe.com" type="email" id="email">
+<br>
+<label id="number-label" for="lang">How many computer languages do you know:</label><hr>
+<input placeholder="5" type="number" id="lang" min="0" max="2000">
+<br>
+<label id="drop-label" for="dropdown">Gender:</label><hr>
+<select id="dropdown">
+<option>Choose:</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+<option>Prefer not to say</option>
+</select>
+<br>
+<input type="radio" id="HTML" name="Lang" value="HTML">
+<label for="HTML">HTML</label><br>
+<input type="radio" id="CSS" name="Lang" value="CSS">
+<label for="CSS">CSS</label><br>
+<input type="radio" id="JS" name="Lang" value="JS">
+<label for="JS">JS</label>
+<br>
 <input type="submit">
