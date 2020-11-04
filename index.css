@@ -4,12 +4,13 @@ font-size: 10px;
 body {
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Ubuntu', Arial, sans-serif;
 line-height: 1.25;
-text-align: center;
+text-align: left;
 margin: auto;
 font-size: 1.5rem;
 }
 h1 {
 font-size: 3rem;
+  text-align: center;
 }
 input, textarea, select, button {
   width : 150px;
